@@ -1,0 +1,197 @@
+2024-09-04T21:02:19.915+05:30  INFO 13304 --- [RentRead] [restartedMain] com.crio.RentRead.RentReadApplication    : Starting RentReadApplication using Java 21.0.4 with PID 13304 (C:\Users\Sauptik\Desktop\RentRead\RentRead\target\classes started by Sauptik in C:\Users\Sauptik\Desktop\RentRead\RentRead)
+2024-09-04T21:02:19.919+05:30  INFO 13304 --- [RentRead] [restartedMain] com.crio.RentRead.RentReadApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-04T21:02:20.001+05:30  INFO 13304 --- [RentRead] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-04T21:02:20.002+05:30  INFO 13304 --- [RentRead] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-04T21:02:21.093+05:30  INFO 13304 --- [RentRead] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-04T21:02:21.180+05:30  INFO 13304 --- [RentRead] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 3 JPA repository interfaces.
+2024-09-04T21:02:22.125+05:30  INFO 13304 --- [RentRead] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-04T21:02:22.147+05:30  INFO 13304 --- [RentRead] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-04T21:02:22.147+05:30  INFO 13304 --- [RentRead] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-04T21:02:22.203+05:30  INFO 13304 --- [RentRead] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-04T21:02:22.203+05:30  INFO 13304 --- [RentRead] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2200 ms
+2024-09-04T21:02:22.425+05:30  INFO 13304 --- [RentRead] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-04T21:02:22.518+05:30  INFO 13304 --- [RentRead] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-04T21:02:22.564+05:30  INFO 13304 --- [RentRead] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-04T21:02:22.920+05:30  INFO 13304 --- [RentRead] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-04T21:02:22.949+05:30  INFO 13304 --- [RentRead] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-04T21:02:23.190+05:30  INFO 13304 --- [RentRead] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@486ab72
+2024-09-04T21:02:23.192+05:30  INFO 13304 --- [RentRead] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-04T21:02:23.243+05:30  WARN 13304 --- [RentRead] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-04T21:02:24.542+05:30  INFO 13304 --- [RentRead] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-04T21:02:24.887+05:30  WARN 13304 --- [RentRead] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-09-04T21:02:24.888+05:30  WARN 13304 --- [RentRead] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "uk6dotkott2kjsp8vw4d0m25fb7" of relation "users" does not exist, skipping
+2024-09-04T21:02:24.911+05:30  INFO 13304 --- [RentRead] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04T21:02:25.503+05:30  WARN 13304 --- [RentRead] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-04T21:02:25.543+05:30  INFO 13304 --- [RentRead] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-09-04T21:02:25.544+05:30  WARN 13304 --- [RentRead] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-09-04T21:02:25.983+05:30  INFO 13304 --- [RentRead] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-04T21:02:26.014+05:30  INFO 13304 --- [RentRead] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-04T21:02:26.021+05:30  INFO 13304 --- [RentRead] [restartedMain] com.crio.RentRead.RentReadApplication    : Started RentReadApplication in 6.76 seconds (process running for 7.481)
+2024-09-04T21:03:51.631+05:30  INFO 13304 --- [RentRead] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-04T21:03:51.632+05:30  INFO 13304 --- [RentRead] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-04T21:03:51.633+05:30  INFO 13304 --- [RentRead] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-04T21:05:06.144+05:30  INFO 13304 --- [RentRead] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04T21:05:06.148+05:30  INFO 13304 --- [RentRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-04T21:05:06.153+05:30  INFO 13304 --- [RentRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-04T21:05:10.342+05:30  INFO 22028 --- [RentRead] [restartedMain] com.crio.RentRead.RentReadApplication    : Starting RentReadApplication using Java 21.0.4 with PID 22028 (C:\Users\Sauptik\Desktop\RentRead\RentRead\target\classes started by Sauptik in C:\Users\Sauptik\Desktop\RentRead\RentRead)
+2024-09-04T21:05:10.344+05:30  INFO 22028 --- [RentRead] [restartedMain] com.crio.RentRead.RentReadApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-04T21:05:10.412+05:30  INFO 22028 --- [RentRead] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-04T21:05:10.412+05:30  INFO 22028 --- [RentRead] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-04T21:05:11.270+05:30  INFO 22028 --- [RentRead] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-04T21:05:11.367+05:30  INFO 22028 --- [RentRead] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 3 JPA repository interfaces.
+2024-09-04T21:05:12.212+05:30  INFO 22028 --- [RentRead] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-04T21:05:12.230+05:30  INFO 22028 --- [RentRead] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-04T21:05:12.230+05:30  INFO 22028 --- [RentRead] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-04T21:05:12.297+05:30  INFO 22028 --- [RentRead] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-04T21:05:12.297+05:30  INFO 22028 --- [RentRead] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1884 ms
+2024-09-04T21:05:12.579+05:30  INFO 22028 --- [RentRead] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-04T21:05:12.673+05:30  INFO 22028 --- [RentRead] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-04T21:05:12.719+05:30  INFO 22028 --- [RentRead] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-04T21:05:13.075+05:30  INFO 22028 --- [RentRead] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-04T21:05:13.107+05:30  INFO 22028 --- [RentRead] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-04T21:05:13.314+05:30  INFO 22028 --- [RentRead] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e9bc294
+2024-09-04T21:05:13.315+05:30  INFO 22028 --- [RentRead] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-04T21:05:13.362+05:30  WARN 22028 --- [RentRead] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-04T21:05:14.304+05:30  INFO 22028 --- [RentRead] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-04T21:05:14.452+05:30  INFO 22028 --- [RentRead] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04T21:05:14.909+05:30  WARN 22028 --- [RentRead] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-04T21:05:14.945+05:30  INFO 22028 --- [RentRead] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-09-04T21:05:14.945+05:30  WARN 22028 --- [RentRead] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-09-04T21:05:15.474+05:30  INFO 22028 --- [RentRead] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-04T21:05:15.505+05:30  INFO 22028 --- [RentRead] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-04T21:05:15.517+05:30  INFO 22028 --- [RentRead] [restartedMain] com.crio.RentRead.RentReadApplication    : Started RentReadApplication in 5.688 seconds (process running for 6.239)
+2024-09-04T21:05:59.836+05:30  INFO 22028 --- [RentRead] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04T21:05:59.839+05:30  INFO 22028 --- [RentRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-04T21:05:59.843+05:30  INFO 22028 --- [RentRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-04T21:06:28.754+05:30  INFO 17616 --- [RentRead] [restartedMain] com.crio.RentRead.RentReadApplication    : Starting RentReadApplication using Java 21.0.4 with PID 17616 (C:\Users\Sauptik\Desktop\RentRead\RentRead\target\classes started by Sauptik in C:\Users\Sauptik\Desktop\RentRead\RentRead)
+2024-09-04T21:06:28.756+05:30  INFO 17616 --- [RentRead] [restartedMain] com.crio.RentRead.RentReadApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-04T21:06:28.820+05:30  INFO 17616 --- [RentRead] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-04T21:06:28.821+05:30  INFO 17616 --- [RentRead] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-04T21:06:29.745+05:30  INFO 17616 --- [RentRead] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-04T21:06:29.814+05:30  INFO 17616 --- [RentRead] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+2024-09-04T21:06:30.576+05:30  INFO 17616 --- [RentRead] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-04T21:06:30.591+05:30  INFO 17616 --- [RentRead] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-04T21:06:30.592+05:30  INFO 17616 --- [RentRead] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-04T21:06:30.637+05:30  INFO 17616 --- [RentRead] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-04T21:06:30.637+05:30  INFO 17616 --- [RentRead] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1816 ms
+2024-09-04T21:06:30.884+05:30  INFO 17616 --- [RentRead] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-04T21:06:30.956+05:30  INFO 17616 --- [RentRead] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-04T21:06:30.987+05:30  INFO 17616 --- [RentRead] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-04T21:06:31.285+05:30  INFO 17616 --- [RentRead] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-04T21:06:31.314+05:30  INFO 17616 --- [RentRead] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-04T21:06:31.603+05:30  INFO 17616 --- [RentRead] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@53d016fd
+2024-09-04T21:06:31.606+05:30  INFO 17616 --- [RentRead] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-04T21:06:31.648+05:30  WARN 17616 --- [RentRead] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-04T21:06:32.547+05:30  INFO 17616 --- [RentRead] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-04T21:06:32.613+05:30  INFO 17616 --- [RentRead] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04T21:06:33.045+05:30  WARN 17616 --- [RentRead] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-04T21:06:33.085+05:30  INFO 17616 --- [RentRead] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-09-04T21:06:33.086+05:30  WARN 17616 --- [RentRead] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-09-04T21:06:33.653+05:30  INFO 17616 --- [RentRead] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-04T21:06:33.691+05:30  INFO 17616 --- [RentRead] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-04T21:06:33.702+05:30  INFO 17616 --- [RentRead] [restartedMain] com.crio.RentRead.RentReadApplication    : Started RentReadApplication in 5.452 seconds (process running for 6.053)
+2024-09-04T21:06:40.488+05:30  INFO 17616 --- [RentRead] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-04T21:06:40.488+05:30  INFO 17616 --- [RentRead] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-04T21:06:40.489+05:30  INFO 17616 --- [RentRead] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-04T21:08:12.480+05:30  INFO 17616 --- [RentRead] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04T21:08:12.484+05:30  INFO 17616 --- [RentRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-04T21:08:12.492+05:30  INFO 17616 --- [RentRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-04T21:08:40.301+05:30  INFO 24008 --- [RentRead] [restartedMain] com.crio.RentRead.RentReadApplication    : Starting RentReadApplication using Java 21.0.4 with PID 24008 (C:\Users\Sauptik\Desktop\RentRead\RentRead\target\classes started by Sauptik in C:\Users\Sauptik\Desktop\RentRead\RentRead)
+2024-09-04T21:08:40.303+05:30  INFO 24008 --- [RentRead] [restartedMain] com.crio.RentRead.RentReadApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-04T21:08:40.377+05:30  INFO 24008 --- [RentRead] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-04T21:08:40.377+05:30  INFO 24008 --- [RentRead] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-04T21:08:41.225+05:30  INFO 24008 --- [RentRead] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-04T21:08:41.315+05:30  INFO 24008 --- [RentRead] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 3 JPA repository interfaces.
+2024-09-04T21:08:42.100+05:30  INFO 24008 --- [RentRead] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-04T21:08:42.115+05:30  INFO 24008 --- [RentRead] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-04T21:08:42.115+05:30  INFO 24008 --- [RentRead] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-04T21:08:42.186+05:30  INFO 24008 --- [RentRead] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-04T21:08:42.187+05:30  INFO 24008 --- [RentRead] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1809 ms
+2024-09-04T21:08:42.451+05:30  INFO 24008 --- [RentRead] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-04T21:08:42.520+05:30  INFO 24008 --- [RentRead] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-04T21:08:42.571+05:30  INFO 24008 --- [RentRead] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-04T21:08:42.896+05:30  INFO 24008 --- [RentRead] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-04T21:08:42.921+05:30  INFO 24008 --- [RentRead] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-04T21:08:43.124+05:30  INFO 24008 --- [RentRead] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@173f0bf0
+2024-09-04T21:08:43.126+05:30  INFO 24008 --- [RentRead] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-04T21:08:43.166+05:30  WARN 24008 --- [RentRead] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-04T21:08:44.251+05:30  INFO 24008 --- [RentRead] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-04T21:08:44.320+05:30  INFO 24008 --- [RentRead] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04T21:08:44.807+05:30  WARN 24008 --- [RentRead] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-04T21:08:44.838+05:30  INFO 24008 --- [RentRead] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-09-04T21:08:44.839+05:30  WARN 24008 --- [RentRead] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-09-04T21:08:45.394+05:30  INFO 24008 --- [RentRead] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-04T21:08:45.425+05:30  INFO 24008 --- [RentRead] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-04T21:08:45.437+05:30  INFO 24008 --- [RentRead] [restartedMain] com.crio.RentRead.RentReadApplication    : Started RentReadApplication in 5.977 seconds (process running for 6.531)
+2024-09-04T21:09:24.278+05:30  INFO 24008 --- [RentRead] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-04T21:09:24.279+05:30  INFO 24008 --- [RentRead] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-04T21:09:24.280+05:30  INFO 24008 --- [RentRead] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-04T21:14:22.433+05:30  INFO 24008 --- [RentRead] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04T21:14:22.438+05:30  INFO 24008 --- [RentRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-04T21:14:22.447+05:30  INFO 24008 --- [RentRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-04T21:15:20.011+05:30  INFO 18640 --- [RentRead] [restartedMain] com.crio.RentRead.RentReadApplication    : Starting RentReadApplication using Java 21.0.4 with PID 18640 (C:\Users\Sauptik\Desktop\RentRead\RentRead\target\classes started by Sauptik in C:\Users\Sauptik\Desktop\RentRead\RentRead)
+2024-09-04T21:15:20.014+05:30  INFO 18640 --- [RentRead] [restartedMain] com.crio.RentRead.RentReadApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-04T21:15:20.082+05:30  INFO 18640 --- [RentRead] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-04T21:15:20.082+05:30  INFO 18640 --- [RentRead] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-04T21:15:20.946+05:30  INFO 18640 --- [RentRead] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-04T21:15:21.065+05:30  INFO 18640 --- [RentRead] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 3 JPA repository interfaces.
+2024-09-04T21:15:21.982+05:30  INFO 18640 --- [RentRead] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-04T21:15:22.003+05:30  INFO 18640 --- [RentRead] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-04T21:15:22.003+05:30  INFO 18640 --- [RentRead] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-04T21:15:22.056+05:30  INFO 18640 --- [RentRead] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-04T21:15:22.056+05:30  INFO 18640 --- [RentRead] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1974 ms
+2024-09-04T21:15:22.349+05:30  INFO 18640 --- [RentRead] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-04T21:15:22.420+05:30  INFO 18640 --- [RentRead] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-04T21:15:22.465+05:30  INFO 18640 --- [RentRead] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-04T21:15:22.844+05:30  INFO 18640 --- [RentRead] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-04T21:15:22.871+05:30  INFO 18640 --- [RentRead] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-04T21:15:23.062+05:30  INFO 18640 --- [RentRead] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@11760795
+2024-09-04T21:15:23.067+05:30  INFO 18640 --- [RentRead] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-04T21:15:23.116+05:30  WARN 18640 --- [RentRead] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-04T21:15:24.161+05:30  INFO 18640 --- [RentRead] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-04T21:15:24.236+05:30  INFO 18640 --- [RentRead] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04T21:15:24.698+05:30  WARN 18640 --- [RentRead] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-04T21:15:24.738+05:30  INFO 18640 --- [RentRead] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-09-04T21:15:24.739+05:30  WARN 18640 --- [RentRead] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-09-04T21:15:25.299+05:30  INFO 18640 --- [RentRead] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-04T21:15:25.333+05:30  INFO 18640 --- [RentRead] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-04T21:15:25.342+05:30  INFO 18640 --- [RentRead] [restartedMain] com.crio.RentRead.RentReadApplication    : Started RentReadApplication in 5.852 seconds (process running for 6.411)
+2024-09-04T21:15:36.452+05:30  INFO 18640 --- [RentRead] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-04T21:15:36.452+05:30  INFO 18640 --- [RentRead] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-04T21:15:36.453+05:30  INFO 18640 --- [RentRead] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-04T21:16:28.759+05:30  INFO 18640 --- [RentRead] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04T21:16:28.763+05:30  INFO 18640 --- [RentRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-04T21:16:28.767+05:30  INFO 18640 --- [RentRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-04T21:16:31.299+05:30  INFO 4628 --- [RentRead] [restartedMain] com.crio.RentRead.RentReadApplication    : Starting RentReadApplication using Java 21.0.4 with PID 4628 (C:\Users\Sauptik\Desktop\RentRead\RentRead\target\classes started by Sauptik in C:\Users\Sauptik\Desktop\RentRead\RentRead)
+2024-09-04T21:16:31.302+05:30  INFO 4628 --- [RentRead] [restartedMain] com.crio.RentRead.RentReadApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-04T21:16:31.364+05:30  INFO 4628 --- [RentRead] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-04T21:16:31.365+05:30  INFO 4628 --- [RentRead] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-04T21:16:32.221+05:30  INFO 4628 --- [RentRead] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-04T21:16:32.335+05:30  INFO 4628 --- [RentRead] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102 ms. Found 3 JPA repository interfaces.
+2024-09-04T21:16:33.150+05:30  INFO 4628 --- [RentRead] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-04T21:16:33.170+05:30  INFO 4628 --- [RentRead] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-04T21:16:33.170+05:30  INFO 4628 --- [RentRead] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-04T21:16:33.233+05:30  INFO 4628 --- [RentRead] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-04T21:16:33.233+05:30  INFO 4628 --- [RentRead] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1868 ms
+2024-09-04T21:16:33.490+05:30  INFO 4628 --- [RentRead] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-04T21:16:33.559+05:30  INFO 4628 --- [RentRead] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-04T21:16:33.605+05:30  INFO 4628 --- [RentRead] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-04T21:16:33.967+05:30  INFO 4628 --- [RentRead] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-04T21:16:34.000+05:30  INFO 4628 --- [RentRead] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-04T21:16:34.210+05:30  INFO 4628 --- [RentRead] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7297b119
+2024-09-04T21:16:34.213+05:30  INFO 4628 --- [RentRead] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-04T21:16:34.257+05:30  WARN 4628 --- [RentRead] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-04T21:16:35.150+05:30  INFO 4628 --- [RentRead] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-04T21:16:35.214+05:30  INFO 4628 --- [RentRead] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04T21:16:35.700+05:30  WARN 4628 --- [RentRead] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-04T21:16:35.737+05:30  INFO 4628 --- [RentRead] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-09-04T21:16:35.759+05:30  WARN 4628 --- [RentRead] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-09-04T21:16:36.276+05:30  INFO 4628 --- [RentRead] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-04T21:16:36.309+05:30  INFO 4628 --- [RentRead] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-09-04T21:16:36.319+05:30  INFO 4628 --- [RentRead] [restartedMain] com.crio.RentRead.RentReadApplication    : Started RentReadApplication in 5.506 seconds (process running for 6.037)
+2024-09-04T21:16:48.459+05:30  INFO 4628 --- [RentRead] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-04T21:16:48.460+05:30  INFO 4628 --- [RentRead] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-04T21:16:48.462+05:30  INFO 4628 --- [RentRead] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-04T21:17:50.164+05:30  INFO 4628 --- [RentRead] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04T21:17:50.169+05:30  INFO 4628 --- [RentRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-04T21:17:50.177+05:30  INFO 4628 --- [RentRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
