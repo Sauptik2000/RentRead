@@ -13,41 +13,10 @@ Role-Based Access Control: Basic Authentication with roles USER and ADMIN.
 
 **Prerequisites**
 
-Java 17 or higher
-Maven or Gradle
-PostgreSQL
-Postman or curl for testing (optional)
-
-**Setup**
-
-1. Clone the Repository
-bash
-Copy code
-git clone https://github.com/yourusername/rentread.git
-cd rentread
-2. Configure Database
-Edit the src/main/resources/application.properties file to include your PostgreSQL database settings:
-
-properties
-Copy code
-spring.datasource.url=jdbc:postgresql://localhost:5432/rentread
-spring.datasource.username=yourusername
-spring.datasource.password=yourpassword
-spring.jpa.hibernate.ddl-auto=update
-3. Build and Run the Application
-Using Maven:
-
-bash
-Copy code
-mvn clean package
-java -jar target/rentread-0.0.1-SNAPSHOT.jar
-Using Gradle:
-
-bash
-Copy code
-./gradlew build
-java -jar build/libs/rentread-0.0.1-SNAPSHOT.jar
-The application will start on http://localhost:8080.
+1. Java 17 or higher
+2. Maven or Gradle
+3. PostgreSQL
+4. Postman or curl for testing (optional)
 
 **API Endpoints**
 
