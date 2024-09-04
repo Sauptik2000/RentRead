@@ -1,5 +1,7 @@
 **RentRead - Book Rental System API**
+
 **Overview**
+
 RentRead is a RESTful API service for managing an online book rental system. The service uses Spring Boot for the backend and PostgreSQL for data persistence. The system supports user registration, book management, and book rental operations with Basic Authentication and role-based access control.
 
 **Features**
