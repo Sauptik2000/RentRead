@@ -20,22 +20,14 @@ Role-Based Access Control: Basic Authentication with roles USER and ADMIN.
 
 **API Endpoints**
 
-1. Register User:
-  URL: /api/register
-2. Login:
-  URL: /api/login
-3. Get All Books:
-  URL: /api/books
-5. Create Book (Admin Only):
-  URL: /api/books
-6. Update Book (Admin Only):
-  URL: /api/books/{bookId}
-7. Delete Book (Admin Only):
-  URL: /api/books/{bookId}
-8. Rent a Book:
-  URL: /api/books/{bookId}/rent
-9. Return a Book:
-  URL: /api/books/{bookId}/return
+1. Register User: /api/register
+2. Login: /api/login
+3. Get All Books: /api/books
+5. Create Book (Admin Only): /api/books
+6. Update Book (Admin Only): /api/books/{bookId}
+7. Delete Book (Admin Only): /api/books/{bookId}
+8. Rent a Book: /api/books/{bookId}/rent
+9. Return a Book: /api/books/{bookId}/return
 
 **Roles**
 
